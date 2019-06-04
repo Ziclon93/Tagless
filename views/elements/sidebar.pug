@@ -1,0 +1,17 @@
+// Sidebar Widgets Column
+.col-md-4
+    
+    // LogIn Widget
+    if is_logged
+        include user_card
+    else
+        include login
+
+    // Search Widget
+    .card.my-4
+        h5.card-header Search
+        .card-body
+            .input-group
+                input#autocomplete.form-control(type='text' placeholder='Search for...')
+                span.input-group-btn
+                    button.btn.btn-secondary(type='button') Go!

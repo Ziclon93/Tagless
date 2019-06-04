@@ -1,0 +1,8 @@
+// Comments Form
+.card.my-4
+  h5.card-header Leave a Comment:
+  .card-body
+    form(id='sub' method='POST' action='/c/' + community + '/' + thread.id + '/comments/submit')
+      .form-group
+        textarea.form-control(rows='3', name="text")
+      button.btn.btn-primary(type='submit') Submit
