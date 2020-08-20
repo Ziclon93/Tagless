@@ -9,7 +9,7 @@
     "coverage": "nyc --reporter=text mocha"
   },
   "dependencies": {
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.0.0",
     "cookie-parser": "~1.4.3",
     "datatables": "^1.10.18",
     "debug": "~2.6.9",
